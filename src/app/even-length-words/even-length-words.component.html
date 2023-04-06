@@ -1,0 +1,5 @@
+<h5>Λεξεις με ζυγο μηκος</h5>
+<p *ngIf="evenWords.length === 0">Δεν υπαρχουν</p>
+<div *ngIf="evenWords.length !== 0">
+    <p *ngFor="let word of evenWords">{{ word }}</p>
+</div>

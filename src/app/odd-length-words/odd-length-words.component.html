@@ -1,0 +1,5 @@
+<h5>Λεξεις με μονο μηκος</h5>
+<p *ngIf="oddWords.length === 0">Δεν υπαρχουν</p>
+<div *ngIf="oddWords.length !== 0">
+    <p *ngFor="let word of oddWords">{{ word }}</p>
+</div>
